@@ -62,7 +62,7 @@ The bot uses environment variables to manage sensitive information such as API k
 Install the `dotenv` package:
 
 ```sh
-pip install dotenv
+npm install dotenv
 ```
 
 ```env
