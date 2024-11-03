@@ -10,6 +10,9 @@ Before you begin, ensure you have met the following requirements:
 
 - Node.js
 - npm
+- axios
+- dotenv
+- web3
 
 ## Installation
 
@@ -56,23 +59,11 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 The bot uses environment variables to manage sensitive information such as API keys. You need to create a `.env` file in the root directory of the project with the following content:
 
-```env
-API_KEY=your_api_key_here
-API_SECRET=your_api_secret_here
-CONTRACT_ADDRESS=your_contract_address
+Install the `dotenv` package:
+
+```sh
+pip install dotenv
 ```
-
-## Implementing Environment Variables
-
-To implement the environment variables in your bot, you need to use the `python-dotenv` package. Follow these steps:
-
-1. Install the `dotenv` package:
-
-   ```sh
-   pip install dotenv
-   ```
-
-   Make sure to replace `your_api_key_here` and `your_api_secret_here` with your actual API key and secret.
 
 ```env
 INFURA_API_KEY=
